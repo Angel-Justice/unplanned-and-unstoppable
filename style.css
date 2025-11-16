@@ -114,15 +114,15 @@ ul {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: white;
 }
 
 .hero-notes p {
   font-size: 18px;
   font-weight: 300;
-  max-width: 52.5rem;
+  max-width: 51rem;
   /* margin-top: 1.5rem;*/
   line-height: 1.5;
+  white-space: wrap;
   /*text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);*/
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -193,9 +193,8 @@ h3 {
 }
 
 .my-words span {
-  font-family: "Ms Madi", sans-serif;
-  font-size: 1.2rem;
-  padding: 0 4rem;
+  font-family: "lexend", sans-serif;
+  font-size: 0.8rem;
 }
 
 .my-story img,
@@ -223,7 +222,7 @@ h3 {
   font-weight: 300;
   padding-right: 2rem;
   padding-top: 0.5rem;
-  color: white;
+  color: #ddeff0;
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -240,7 +239,7 @@ footer {
   align-items: center;
   padding: 0.7rem 0;
   margin-top: 0;
-  color: white;
+  color: #ddeff0;
   position: relative;
   z-index: 10;
   text-align: center;
@@ -251,7 +250,7 @@ footer p {
 }
 
 footer span {
-  color: red;
+  color: rgb(255, 0, 0);
   font-size: 1rem;
   transform: scale(2);
   transition: 0.5s;
